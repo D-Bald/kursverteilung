@@ -1,0 +1,21 @@
+# Environments
+.venv
+venv/
+
+# Caches
+__pycache__/
+*.py[cod]
+
+### Jupyter Notebook ###
+.ipynb_checkpoints/*
+
+### Data ###
+data/**
+# !data/**/
+# Behalte die leeren Unterordner, indem eine Dummy-Datei enthalten bleibt
+!data/**/.gitkeepfolder
+
+
+### Possible data files ###
+*.xlsx
+*.csv
