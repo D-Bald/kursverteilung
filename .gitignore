@@ -10,10 +10,9 @@ __pycache__/
 .ipynb_checkpoints/*
 
 # Data
-data/**
-!data/**/
-# Behalte die leeren Unterordner, indem eine Dummy-Datei enthalten bleibt
-!data/**/.gitkeepfolder
+/data/*
+# Keep data folder by keeping a dummy file
+!/data/*/.gitkeepfolder
 
 *.xlsx
 *.csv
